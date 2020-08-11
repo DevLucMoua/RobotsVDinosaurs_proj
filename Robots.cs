@@ -14,7 +14,7 @@ namespace RobotsVDinosaurs
         public string weapon;
         public int attackPower;
 
-        public Robot(string name, int hitPoints, string weapon, int attackPower)
+        public Robot(string name, int hitPoints, string weapon, int attackPower, int powerLevel)
         {
             this.name = name;
             this.hitPoints = hitPoints;
@@ -25,13 +25,14 @@ namespace RobotsVDinosaurs
 
         public int AttackDinosuar(Dinosaur dinosaur)
         {
-            hitPoints -= attackPower;
+            dinosaur.hitPoints -= attackPower;
+            powerLevel -= 10;
             return hitPoints;
         }
 
-        //public int TakeDamageFromDinosaur()
-        //{
+        public void PointCounterRobots()
+        {
 
-        //}
+        }
     }
 }

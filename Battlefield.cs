@@ -13,14 +13,14 @@ namespace RobotsVDinosaurs
 
         public Battlefield()
         {
+            fleet.robots[0].AttackDinosuar(herd.dinosaurs[0]);
+            herd.dinosaurs[0].AttackRobot(fleet.robots[0]);
 
         }
 
-        public void PracticeMethod()
+        public void RemoveDeadDinosaur(Dinosaur dinosaur)
         {
-           
-            fleet.robots[0].AttackDinosuar(herd.dinosaurs[0]);
-          
+            
         }
     }
 }

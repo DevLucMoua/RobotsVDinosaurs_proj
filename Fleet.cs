@@ -13,12 +13,12 @@ namespace RobotsVDinosaurs
         public Fleet()
         {
             robots = new List<Robot>();
-            Robot Shredder = new Robot("Shredder", 65, "Chainsaw", 30);
-            Robot Blingtron = new Robot("Blingtron 600", 90, "wrench", 20);
-            Robot Curator = new Robot("The Curator", 125, "Electric Fist", 5);
-            robots.Add(Shredder);
-            robots.Add(Blingtron);
-            robots.Add(Curator);
+            Robot Shredder = new Robot("Shredder", 65, "Chainsaw", 30, 100);
+            Robot Blingtron = new Robot("Blingtron 600", 90, "wrench", 20, 100);
+            Robot Curator = new Robot("The Curator", 200, "Electric Fist", 5, 100);
+            //robots.Add(Shredder);
+            //robots.Add(Blingtron);
+            //robots.Add(Curator);
         }
 
         public void AddRobotToFleet(Robot robot)
