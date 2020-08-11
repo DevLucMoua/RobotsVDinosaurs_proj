@@ -29,20 +29,6 @@ namespace RobotsVDinosaurs
             return hitPoints;
         }
 
-        //public bool DeadDinosaur(Dinosaur dinosaur)
-        //{
-            
-        //}
 
-        //public bool PointCounterDinosaurs(Robot robots)
-        //{
-        //    if (robots.hitPoints <= 0)
-        //    {
-        //        Console.WriteLine("One of the robots have been eliminated from battle!");
-        //        return true;
-        //    }
-        //    else (robots.hitPoints > 1)
-
-        //}
     }
 }

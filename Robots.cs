@@ -28,11 +28,8 @@ namespace RobotsVDinosaurs
             dinosaur.hitPoints -= attackPower;
             powerLevel -= 10;
             return hitPoints;
+            
         }
 
-        public void PointCounterRobots()
-        {
-
-        }
     }
 }
