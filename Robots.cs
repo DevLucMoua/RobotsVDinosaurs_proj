@@ -23,7 +23,7 @@ namespace RobotsVDinosaurs
             this.powerLevel = 100;
         }
 
-        public int AttackDinosuar(Dinosaur dinosaur)
+        public int AttackDinosaur(Dinosaur dinosaur)
         {
             dinosaur.hitPoints -= attackPower;
             powerLevel -= 10;
