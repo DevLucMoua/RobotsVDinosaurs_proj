@@ -12,6 +12,7 @@ namespace RobotsVDinosaurs
         public int hitPoints;
         public int energy;
         public int attackPower;
+        public string[] abilites = {"Charge", "Slash", "Bite", };
 
         public Dinosaur(string type, int hitPoints, int attackPower, int energy)
         {

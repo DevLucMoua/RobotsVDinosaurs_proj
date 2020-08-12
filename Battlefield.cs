@@ -30,9 +30,16 @@ namespace RobotsVDinosaurs
                     CheckIfDinoIsDead(herd.dinosaurs[0]);
                     CheckIfRoboIsDead(fleet.robots[0]);
                 }
-               if(fleet.robots.Count == 0 || herd.dinosaurs.Count == 0)
+               if(fleet.robots.Count == 0)
                 {
-                    Console.WriteLine("Game over!");
+                    Console.WriteLine("Game over! Dinosaurs win!");
+                    Console.ReadLine();
+                    playAnotherRound = false;
+                }
+               if(herd.dinosaurs.Count == 0)
+                {
+                    Console.WriteLine("Game over! Robots win!");
+                    Console.ReadLine();
                     playAnotherRound = false;
                 }
             }

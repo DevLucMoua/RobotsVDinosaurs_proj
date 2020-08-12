@@ -13,7 +13,7 @@ namespace RobotsVDinosaurs
         int powerLevel;
         public string weapon;
         public int attackPower;
-
+        public List<string> abilities;
         public Robot(string name, int hitPoints, string weapon, int attackPower, int powerLevel)
         {
             this.name = name;

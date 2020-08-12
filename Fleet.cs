@@ -15,7 +15,7 @@ namespace RobotsVDinosaurs
             robots = new List<Robot>();
             Robot Shredder = new Robot("Shredder", 65, "Chainsaw", 30, 100);
             Robot Blingtron = new Robot("Blingtron 600", 90, "wrench", 20, 100);
-            Robot Curator = new Robot("The Curator", 200, "Electric Fist", 5, 100);
+            Robot Curator = new Robot("The Curator", 200, "Electric Fist", 15, 100);
             robots.Add(Shredder);
             robots.Add(Blingtron);
             robots.Add(Curator);
